@@ -74,12 +74,6 @@ export default function Provost () {
                             />
                             <p>Period: [2019-Present]</p>
                         </div>
-
-                        {/* <h2 style={{paddingTop: '2em'}}>Sowmik Sarker</h2>
-                        <h4 style={{color: 'grey'}}>Web Developer</h4> */}
-                        {/* <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/> */}
-                     
-                        {/* <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/> */}
                     </Cell>
 
 
@@ -90,39 +84,9 @@ export default function Provost () {
                         <h5>Department of Pharmacy</h5>
 
                         <Button><Link>[Profile]</Link></Button>
-                        
-                         {/* <Education 
-                            startYear={2017}
-                            endYear={2021}
-                            schoolName="University of Dhaka"
-                            schoolDescription="React is a JavaScript library for building user interfaces. 
-                            It is maintained by Facebook and a community of individual 
-                            developers and companies. Undergraduate(B.Sc)"
-                        /> */}
 
-                        {/* <hr style={{borderTop: '3px solid #e22947'}}/> */}
-
-                        {/* <h2>Experience</h2> */}
-
-                        {/* <Experience
-                            startYear={2021}
-                            endYear={2023}
-                            jobName="My First Job Name"
-                            jobDescription="React is a JavaScript library for building user interfaces. 
-                            It is maintained by Facebook and a community of individual 
-                            developers and companies."
-                        />  */}
-
-                       
                         <hr style={{borderTop: '3px solid #e22947'}}/>
-
-                        {/* <h2>Skills</h2> */}
-                         {/* <Skills
-                            skill="Android"
-                            progress="100"
-                        /> */}
                     </Cell>
-                    
                 </Grid>
                
 

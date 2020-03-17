@@ -22,6 +22,17 @@ import Divider from '@material-ui/core/Divider';
 import Container from '@material-ui/core/Container';
 
 
+// import {BrowserRouter, Switch, Route } from 'react-router-dom'
+// import Navbar from './discussionPanel/layout/Navbar'
+// import Dashboard from './discussionPanel/dashboard/Dashboard'
+// import ProjectDetails from './discussionPanel/projects/ProjectDetails'
+// import SignIn from './discussionPanel/auth/SignIn'
+// import SignUp from './discussionPanel/auth/SignUp'
+// import CreateProject from './discussionPanel/projects/CreateProject'
+
+
+
+
 
 
 import{Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
@@ -104,6 +115,7 @@ function App() {
       </Toolbar>
        <Layout>
           {/* <Header className = "header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">My Portfolio (Sowmik Sarker)</Link> } scroll> */}
+         
          <Header>
            <Navigation>
              <Link to="/">Home</Link>
@@ -111,14 +123,13 @@ function App() {
              <Link to="/house_tutor">House Tutor</Link>
              <Link to="/stuffs">Stuffs</Link>
              <Link to="/notice_board">Notice Board</Link>
-             <Link to="/students_information">Students Information</Link>
-             <Link to="/student_union">Student Union</Link>
+             <Link to="/students_information">Student Information</Link>
+             <Link to="/student_union">DUCSU</Link>
              <Link to="/organizations">Organizations</Link>
              <Link to="/achievements">Achievements</Link>
              <Link to="/about">About</Link>
            </Navigation>
          </Header>
-
       
 
          <Content>
